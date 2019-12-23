@@ -17,8 +17,8 @@ public class NumberMultiplier {
         HashSet<Integer> hashSet = new HashSet<>();
         ArrayDeque<Double> arrayDeque = new ArrayDeque<>();
 
-        System.out.println(fillCollection(arrayList, "Hello"));
-        System.out.println(fillCollection(hashSet, 17));
+        System.out.println(fillCollection(new ArrayList<>(), 17));
+        System.out.println(fillCollection(new HashSet<>(), "Hello"));
         System.out.println(fillCollection(arrayDeque, 0.25));
     }
 

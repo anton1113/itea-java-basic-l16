@@ -1,6 +1,10 @@
 package com.itea.java.basic.l16.classwork;
 
+import java.io.InputStream;
+
 public class List<T extends Comparable<T>> {
+
+//    private <T extends Number> T field;
 
     private Object[] values = new Object[100];
     private int size = 0;
@@ -32,5 +36,9 @@ public class List<T extends Comparable<T>> {
         for(Object obj : values) {
             System.out.print(obj.toString() + " ");
         }
+    }
+
+    private void foo() {
+
     }
 }
